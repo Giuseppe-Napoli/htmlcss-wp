@@ -1,0 +1,155 @@
+/* GLOBAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* BODY */
+.container{
+  width: 75%;
+  margin: auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* HEADER */
+.intro{
+  margin-bottom: 20px;
+}
+
+.neori{
+  width: 170px;
+  height: 65px;
+  border-right: 1px solid#E5E5E5;
+  padding-right: 12px;
+  margin-bottom: 35px;
+}
+
+nav li{
+  display: inline;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+li a{
+  text-decoration: none;
+  padding-right: 10px;
+  color:#8A8A8A;
+}
+
+li a:hover{
+color: #B3472C;
+}
+
+.image{
+  height: 600px;
+  background-image: url("../assets/img/banner.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  margin: 35px 0;
+}
+
+.back{
+  height: 600px;
+}
+
+.back, .background{
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+ .text{
+  width: 55%;
+  padding-top: 390px;
+  padding-left: 5%;
+  color: white;
+}
+
+.text p strong{
+  font-size: 36px;
+}
+
+.text p{
+  font-size: 20px;
+ }
+
+/* MAIN */
+
+.contenuto{
+  margin-bottom: 30px;
+}
+
+main .contenuto p{
+  color: #9C9C9C;
+}
+
+.title{
+  height: 70px;
+  margin-bottom: 15px;
+}
+
+main .main-finance,
+main .main-content,
+main .main-investiment{
+ float: left;
+}
+
+.main-finance, .main-investiment{
+  width: 20%;
+}
+
+.main-content{
+  width: 56% ;
+  margin: 0 2%;
+}
+
+.banner{
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+ 
+.background{
+  height: 260px;
+}
+
+.paragrafo h3{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.main-finance .banner{
+  background-image: url(../assets/img/img-1.jpg);
+}
+  
+ 
+.main-content .banner{
+  background-image: url(../assets/img/banner-2.jpg);
+}
+
+
+.main-investiment .banner{
+  background-image: url(../assets/img/img-3.jpg);
+}
+
+/* FOOTER */
+footer{
+  margin-bottom: 20px;
+  line-height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 12px;
+}
+
+footer p::after{
+  content: '\2665';
+  color: #FF0000;
+}
